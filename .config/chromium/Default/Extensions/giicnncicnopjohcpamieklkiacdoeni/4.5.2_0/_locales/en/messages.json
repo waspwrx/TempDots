@@ -1,0 +1,380 @@
+{
+   "devices_connected_devices": {
+      "message": "Connected Devices"
+   },
+   "devices_error": {
+      "message": "Error: The list of connected devices failed to load. Please try again later."
+   },
+   "devices_loading": {
+      "message": "loading"
+   },
+   "devices_popup": {
+      "message": "devices.html"
+   },
+   "devices_this_device": {
+      "message": "this device"
+   },
+   "devices_time_added": {
+      "message": "Added: "
+   },
+   "extension_description": {
+      "message": "Receive Android notifications in your browser."
+   },
+   "extension_name": {
+      "message": "Desktop Notifications for Android"
+   },
+   "extension_popup": {
+      "message": "popup.html"
+   },
+   "hello_world": {
+      "message": "Hello, world."
+   },
+   "likert_strongly_agree": {
+      "message": "Strongly agree"
+   },
+   "likert_strongly_disagree": {
+      "message": "Strongly disagree"
+   },
+   "new_device_content": {
+      "message": "Successfully signed into new device: "
+   },
+   "new_device_title": {
+      "message": "Desktop Notifications"
+   },
+   "notification_button_action_avocado": {
+      "message": "Open Avocado"
+   },
+   "notification_button_action_desktop_notifications": {
+      "message": "Rate on Google Play (thank you!)"
+   },
+   "notification_button_action_dropbox": {
+      "message": "Open Dropbox"
+   },
+   "notification_button_action_facebook": {
+      "message": "Open Facebook"
+   },
+   "notification_button_action_facebook_groups": {
+      "message": "Open Facebook Groups"
+   },
+   "notification_button_action_facebook_messenger": {
+      "message": "Open Facebook Messenger"
+   },
+   "notification_button_action_gmx": {
+      "message": "Open GMX"
+   },
+   "notification_button_action_google_calendar": {
+      "message": "Open Google Calendar"
+   },
+   "notification_button_action_google_drive": {
+      "message": "Open Google Drive"
+   },
+   "notification_button_action_google_hangouts": {
+      "message": "Open Hangouts"
+   },
+   "notification_button_action_google_keep": {
+      "message": "Open Google Keep"
+   },
+   "notification_button_action_google_mail": {
+      "message": "Open Gmail"
+   },
+   "notification_button_action_google_photos": {
+      "message": "Open Google Photos"
+   },
+   "notification_button_action_google_play": {
+      "message": "Open Google Play"
+   },
+   "notification_button_action_google_play_movies": {
+      "message": "Open Google Play Movies"
+   },
+   "notification_button_action_google_play_music": {
+      "message": "Open Google Play Music"
+   },
+   "notification_button_action_google_plus": {
+      "message": "Open Google+"
+   },
+   "notification_button_action_groupme": {
+      "message": "Open GroupMe Web"
+   },
+   "notification_button_action_humble_bundle": {
+      "message": "Open humblebundle.com"
+   },
+   "notification_button_action_inbox": {
+      "message": "Open Inbox"
+   },
+   "notification_button_action_instagram": {
+      "message": "Open Instagram"
+   },
+   "notification_button_action_linkedin": {
+      "message": "Open LinkedIn"
+   },
+   "notification_button_action_mysms": {
+      "message": "Open mysms"
+   },
+   "notification_button_action_netflix": {
+      "message": "Open Netflix"
+   },
+   "notification_button_action_onedrive": {
+      "message": "Open OneDrive"
+   },
+   "notification_button_action_outlook": {
+      "message": "Open Outlook.com"
+   },
+   "notification_button_action_paypal": {
+      "message": "Open PayPal"
+   },
+   "notification_button_action_pinterest": {
+      "message": "Open Pinterest"
+   },
+   "notification_button_action_qq": {
+      "message": "Open QQ"
+   },
+   "notification_button_action_skype": {
+      "message": "Open Skype Web"
+   },
+   "notification_button_action_sofascore": {
+      "message": "Open SofaScore"
+   },
+   "notification_button_action_spotify": {
+      "message": "Open Spotify Web Player"
+   },
+   "notification_button_action_steam": {
+      "message": "Open Steam"
+   },
+   "notification_button_action_telegram": {
+      "message": "Open Telegram Web"
+   },
+   "notification_button_action_tumblr": {
+      "message": "Open Tumblr"
+   },
+   "notification_button_action_twitch": {
+      "message": "Open Twitch"
+   },
+   "notification_button_action_twitter": {
+      "message": "Open Twitter"
+   },
+   "notification_button_action_web_de": {
+      "message": "Open WEB.DE"
+   },
+   "notification_button_action_wechat": {
+      "message": "Open WeChat Web"
+   },
+   "notification_button_action_whatsapp": {
+      "message": "Open WhatsApp Web"
+   },
+   "notification_button_action_yahoo_mail": {
+      "message": "Open Yahoo! Mail"
+   },
+   "notification_button_action_youtube": {
+      "message": "Open YouTube"
+   },
+   "notification_button_info": {
+      "message": "Info"
+   },
+   "notification_button_open_links": {
+      "message": "Open link(s)"
+   },
+   "popup_list_clear_all_notifications": {
+      "message": "clear all"
+   },
+   "popup_list_clear_notification": {
+      "message": "dismiss"
+   },
+   "popup_list_no_notifications": {
+      "message": "Your notifications appear here."
+   },
+   "popup_loading": {
+      "message": "Loading..."
+   },
+   "popup_menu_android_app": {
+      "message": "Get the Android app"
+   },
+   "popup_menu_android_tv_app": {
+      "message": "Get the Android TV app (soon!)"
+   },
+   "popup_menu_contact": {
+      "message": "Feedback (hcilab@gmail.com)"
+   },
+   "popup_menu_devices": {
+      "message": "Connected devices"
+   },
+   "popup_menu_plus_community": {
+      "message": "Google+ community"
+   },
+   "popup_menu_sign_out": {
+      "message": "Sign out"
+   },
+   "popup_menu_toggle_settings": {
+      "message": "Show/hide settings"
+   },
+   "popup_menu_troubleshooting": {
+      "message": "Troubleshooting"
+   },
+   "popup_offline_warning": {
+      "message": "You are currently offline. Connect to the Internet to receive notifications and to access the settings."
+   },
+   "popup_settings_badge": {
+      "message": "Show number of notifications on the icon"
+   },
+   "popup_settings_duration_option_0": {
+      "message": "Don't show popups"
+   },
+   "popup_settings_duration_option_1": {
+      "message": "1 second"
+   },
+   "popup_settings_duration_option_10": {
+      "message": "10 seconds"
+   },
+   "popup_settings_duration_option_11": {
+      "message": "11 seconds"
+   },
+   "popup_settings_duration_option_12": {
+      "message": "12 seconds"
+   },
+   "popup_settings_duration_option_13": {
+      "message": "13 seconds"
+   },
+   "popup_settings_duration_option_14": {
+      "message": "14 seconds"
+   },
+   "popup_settings_duration_option_15": {
+      "message": "15 seconds"
+   },
+   "popup_settings_duration_option_16": {
+      "message": "16 seconds"
+   },
+   "popup_settings_duration_option_17": {
+      "message": "17 seconds"
+   },
+   "popup_settings_duration_option_18": {
+      "message": "18 seconds"
+   },
+   "popup_settings_duration_option_19": {
+      "message": "19 seconds"
+   },
+   "popup_settings_duration_option_2": {
+      "message": "2 seconds"
+   },
+   "popup_settings_duration_option_20": {
+      "message": "20 seconds"
+   },
+   "popup_settings_duration_option_21": {
+      "message": "21 seconds"
+   },
+   "popup_settings_duration_option_22": {
+      "message": "22 seconds"
+   },
+   "popup_settings_duration_option_23": {
+      "message": "23 seconds"
+   },
+   "popup_settings_duration_option_24": {
+      "message": "24 seconds"
+   },
+   "popup_settings_duration_option_25": {
+      "message": "25 seconds"
+   },
+   "popup_settings_duration_option_3": {
+      "message": "3 seconds"
+   },
+   "popup_settings_duration_option_4": {
+      "message": "4 seconds"
+   },
+   "popup_settings_duration_option_5": {
+      "message": "5 seconds"
+   },
+   "popup_settings_duration_option_6": {
+      "message": "6 seconds"
+   },
+   "popup_settings_duration_option_7": {
+      "message": "7 seconds"
+   },
+   "popup_settings_duration_option_8": {
+      "message": "8 seconds (default)"
+   },
+   "popup_settings_duration_option_9": {
+      "message": "9 seconds"
+   },
+   "popup_settings_duration_option_999": {
+      "message": "Until closed manually"
+   },
+   "popup_settings_duration_text": {
+      "message": "Hide notification popups after..."
+   },
+   "popup_settings_remember": {
+      "message": "Keep notifications when Chrome is closed"
+   },
+   "popup_settings_sound": {
+      "message": "Enable sound"
+   },
+   "popup_settings_speak": {
+      "message": "Enable speech output"
+   },
+   "popup_settings_speak_experimental": {
+      "message": "(experimental)"
+   },
+   "popup_sign_in_app": {
+      "message": "Get the Android app"
+   },
+   "popup_sign_in_button": {
+      "message": "Sign in with Google"
+   },
+   "popup_sign_in_contact": {
+      "message": "Contact us (hcilab@gmail.com)"
+   },
+   "popup_sign_in_intro_1": {
+      "message": "Sign in with the same Google account as in the Android app. If you are not yet signed into Chrome, you will be prompted to do so. This extensions uses the account currently signed into Chrome, if you have multiple Google accounts"
+   },
+   "popup_sign_in_intro_2": {
+      "message": "make sure to switch to the correct account first"
+   },
+   "popup_sign_in_troubleshooting": {
+      "message": "Troubleshooting"
+   },
+   "popup_title": {
+      "message": "Desktop Notifications for Android"
+   },
+   "server_maintenance": {
+      "message": ""
+   },
+   "setup_complete": {
+      "message": "Setup complete!"
+   },
+   "signin_again": {
+      "message": "Please sign in again."
+   },
+   "signin_failure_message_auth": {
+      "message": "Authentication failed."
+   },
+   "signin_failure_message_gcm": {
+      "message": "Failed to register on Google Cloud Messaging. Please try it again later. If it keeps failing please contact us at hcilab@gmail.com"
+   },
+   "signin_failure_message_offline": {
+      "message": "No Internet connection."
+   },
+   "signin_failure_message_permission": {
+      "message": "Permission not granted."
+   },
+   "signin_failure_message_server": {
+      "message": "An error occurred while connecting to the server. Please try it again later. If it keeps failing please contact us at hcilab@gmail.com"
+   },
+   "signin_failure_message_unknown": {
+      "message": "Unknown error."
+   },
+   "signin_failure_title": {
+      "message": "Sign-in failed"
+   },
+   "signin_success_message": {
+      "message": "Successfully signed in!"
+   },
+   "survey_notification_distracting": {
+      "message": "Please rate your agreement to the following statement: This notification is distracting."
+   },
+   "survey_notification_important": {
+      "message": "Please rate your agreement to the following statement: This notification is important."
+   },
+   "survey_notification_useful": {
+      "message": "Please rate your agreement to the following statement: This notification is useful."
+   },
+   "tts_lang": {
+      "message": "en-US"
+   }
+}

@@ -1,0 +1,42 @@
+#!/bin/python3
+
+import forecastio, re
+api_key = "d8a3e9cef3f7b21d72920f61d2273204"
+lat = 39.502260
+lon = -119.855485
+
+forecast = forecastio.load_forecast(api_key, lat, lon)
+byHour = forecast.hourly()
+current = forecast.currently()
+if "." ==  byHour.summary[-1]:
+	byHour.summary = byHour.summary[:-1]
+if "throughout" in byHour.summary:
+	later = [match.start() for match in re.finditer(r'throughout', byHour.summary)]
+	byHour.summary = byHour.summary[:later[0]]
+if "later" in byHour.summary:
+	later = [match.start() for match in re.finditer(r'later', byHour.summary)]
+	byHour.summary = byHour.summary[:later[0]]
+if "and" in byHour.summary:
+	later = [match.start() for match in re.finditer(r'and', byHour.summary)]
+	byHour.summary = byHour.summary[:later[0]]
+if "," in byHour.summary:
+	later = [match.start() for match in re.finditer(r',', byHour.summary)]
+	byHour.summary = byHour.summary[:later[0]]
+if "starting" in byHour.summary:
+	later = [match.start() for match in re.finditer(r'starting', byHour.summary)]
+	byHour.summary = byHour.summary[:later[0]]
+if "Cloudy" in current.summary or "cloudy" in current.summary or "Overcast" in current.summary or "overcast" in current.summary:
+    current.summary = "🌥 " + current.summary
+elif "Sunny" in current.summary or "sunny" in current.summary or "clear" in current.summary or "Clear" in current.summary:
+    current.summary = " " + current.summary
+elif "Rain" in current.summary or "rain" in current.summary or "drizzle" in current.summary or "Drizzle" in current.summary:
+    current.summary = "🌧 " + current.summary
+elif "Snow" in current.summary or "snow" in current.summary or "flurries" in current.summary or "Flurries" in current.summary:
+    current.summary = "⛇ " + current.summary
+elif "storm" in current.summary or "Storm" in current.summary:
+    current.summary = "🌩 " + current.summary
+elif "mist" in current.summary or "Mist" in current.summary or "Foggy" in current.summary or "foggy" in current.summary:
+    current.summary = "🌫 " + current.summary
+else:
+    current.summary = "🌎 " + current.summary
+print(current.summary +", "+ str(int(current.temperature)) + " °F" + " | Home")

@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "css/bettersteam.css" ],
+      "js": [ "js/jquery-1.12.3.js", "js/content_on_ready.js" ],
+      "matches": [ "*://store.steampowered.com/app/*" ]
+   } ],
+   "description": "Real gameplay video on Steam!",
+   "icons": {
+      "128": "img/icon128px.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuGClrHnsJLZ+HFqNnWeSPKR+QBr3P75sBEdfmDs+3M2LUYnI21VW0iGQYrUKBNGjX0vXtqvIdRd0ydO0lNt6ssp9zgNay7lpKwAkkfTQKIxcHo+tvI73P1o8w7yRDuTu1aCnUGEjpWHNVkzM6jh6mqg1WrqAmy1OO68WRXiySeHt7MWhiGeTQ4uRMTlyF5TdUD/Y3U8VAdXq5Yc3v8tBP7nmwegv7kTRstv2O0EusuqWYNP8tnWli1rOrE9z3vwN4sEHbGbKpc7pnYaEYj7zJNcfQIbZTjIWfrrfNrpQseftEMqxpbRzlLDMME/SUOyDIf3/evEKj0+J7heBJLzB5wIDAQAB",
+   "manifest_version": 2,
+   "name": "FairSteam - Gameplay video for Steam",
+   "permissions": [ "*://*.steamstatic.com/*", "*://store.steampowered.com/app/*", "webRequest", "webRequestBlocking", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.6",
+   "web_accessible_resources": [ "js/player_init.js", "js/gamehighlightplayer_updated.js", "js/gamehighlightplayer_stub.js", "img/youtube_icon.png" ]
+}

@@ -1,0 +1,33 @@
+{
+   "background": {
+      "scripts": [ "jquery-3.1.1.min.js", "const.min.js", "util.min.js", "auth.min.js", "background.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon5_19_disconnect.png",
+         "38": "images/icon5_19_disconnect@2x.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "icons": {
+      "128": "images/icon_rich_128.png",
+      "19": "images/icon5_19.png",
+      "256": "images/icon_rich_256.png",
+      "38": "images/icon5_19@2x.png",
+      "48": "images/icon_rich_48.png",
+      "96": "images/icon_rich_96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD9OXQCPnRhZgFXrz+HJVcmovz0Cf6PEh0zaJ9dwmG8NpLrdXHV8Xtxnk0Dge4IeUwWdSkNCxDEx6xx8visyIwWJ1ssGfaCuYx/2GW7d5VPBV+ZQzMWjm95Uua0Ci/QF4JYjMtHDEgq/78D3uyo7CnC3R+traDVlIvJd2i7SS5hewIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extension_name__",
+   "oauth2": {
+      "client_id": "1023444456094-6oqicc53bef65ih118abdn54vi5pfg87.apps.googleusercontent.com",
+      "scopes": [ "profile" ]
+   },
+   "permissions": [ "background", "notifications", "storage", "gcm", "identity", "tts", "*://desktopnotifications.hci.simtech.uni-stuttgart.de/*" ],
+   "short_name": "Desktop Notifications",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.5.2"
+}

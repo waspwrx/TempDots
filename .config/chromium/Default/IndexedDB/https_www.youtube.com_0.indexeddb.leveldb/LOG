@@ -1,0 +1,3 @@
+2018/08/05-19:39:39.706 25393 Reusing MANIFEST /home/stosh/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/08/05-19:39:39.706 25393 Recovering log #3
+2018/08/05-19:39:39.707 25393 Reusing old log /home/stosh/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 

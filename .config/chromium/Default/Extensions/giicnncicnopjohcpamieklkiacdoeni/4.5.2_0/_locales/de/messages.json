@@ -1,0 +1,380 @@
+{
+   "devices_connected_devices": {
+      "message": "Verbundene Geräte"
+   },
+   "devices_error": {
+      "message": "Fehler: Die Liste der verbundenen Geräte konnte nicht geladen werden. Bitte versuche es später noch einmal."
+   },
+   "devices_loading": {
+      "message": "laden"
+   },
+   "devices_popup": {
+      "message": "devices.html"
+   },
+   "devices_this_device": {
+      "message": "dieses Gerät"
+   },
+   "devices_time_added": {
+      "message": "Hinzugefügt: "
+   },
+   "extension_description": {
+      "message": "Empfange Android Benachrichtigungen in deinem Browser."
+   },
+   "extension_name": {
+      "message": "Desktop Notifications für Android"
+   },
+   "extension_popup": {
+      "message": "popup.html"
+   },
+   "hello_world": {
+      "message": "Hallo, Welt."
+   },
+   "likert_strongly_agree": {
+      "message": "Trifft zu"
+   },
+   "likert_strongly_disagree": {
+      "message": "Trifft nicht zu"
+   },
+   "new_device_content": {
+      "message": "Erfolgreich mit einem neuen Gerät angemeldet: "
+   },
+   "new_device_title": {
+      "message": "Desktop Notifications"
+   },
+   "notification_button_action_avocado": {
+      "message": "Avocado öffnen"
+   },
+   "notification_button_action_desktop_notifications": {
+      "message": "Auf Google Play bewerten (danke!)"
+   },
+   "notification_button_action_dropbox": {
+      "message": "Dropbox öffnen"
+   },
+   "notification_button_action_facebook": {
+      "message": "Facebook öffnen"
+   },
+   "notification_button_action_facebook_groups": {
+      "message": "Facebook Groups öffnen"
+   },
+   "notification_button_action_facebook_messenger": {
+      "message": "Facebook Messenger öffnen"
+   },
+   "notification_button_action_gmx": {
+      "message": "GMX öffnen"
+   },
+   "notification_button_action_google_calendar": {
+      "message": "Google Kalender öffnen"
+   },
+   "notification_button_action_google_drive": {
+      "message": "Google Drive öffnen"
+   },
+   "notification_button_action_google_hangouts": {
+      "message": "Hangouts öffnen"
+   },
+   "notification_button_action_google_keep": {
+      "message": "Google Keep öffnen"
+   },
+   "notification_button_action_google_mail": {
+      "message": "Gmail öffnen"
+   },
+   "notification_button_action_google_photos": {
+      "message": "Google Photos öffnen"
+   },
+   "notification_button_action_google_play": {
+      "message": "Google Play öffnen"
+   },
+   "notification_button_action_google_play_movies": {
+      "message": "Google Play Movies öffnen"
+   },
+   "notification_button_action_google_play_music": {
+      "message": "Google Play Music öffnen"
+   },
+   "notification_button_action_google_plus": {
+      "message": "Google+ öffnen"
+   },
+   "notification_button_action_groupme": {
+      "message": "GroupMe Web öffnen"
+   },
+   "notification_button_action_humble_bundle": {
+      "message": "humblebundle.com öffnen"
+   },
+   "notification_button_action_inbox": {
+      "message": "Inbox öffnen"
+   },
+   "notification_button_action_instagram": {
+      "message": "Instagram öffnen"
+   },
+   "notification_button_action_linkedin": {
+      "message": "LinkedIn öffnen"
+   },
+   "notification_button_action_mysms": {
+      "message": "mysms öffnen"
+   },
+   "notification_button_action_netflix": {
+      "message": "Netflix öffnen"
+   },
+   "notification_button_action_onedrive": {
+      "message": "OneDrive öffnen"
+   },
+   "notification_button_action_outlook": {
+      "message": "Outlook.com öffnen"
+   },
+   "notification_button_action_paypal": {
+      "message": "PayPal öffnen"
+   },
+   "notification_button_action_pinterest": {
+      "message": "Pinterest öffnen"
+   },
+   "notification_button_action_qq": {
+      "message": "QQ öffnen"
+   },
+   "notification_button_action_skype": {
+      "message": "Skype Web öffnen"
+   },
+   "notification_button_action_sofascore": {
+      "message": "SofaScore öffnen"
+   },
+   "notification_button_action_spotify": {
+      "message": "Spotify Web Player öffnen"
+   },
+   "notification_button_action_steam": {
+      "message": "Steam öffnen"
+   },
+   "notification_button_action_telegram": {
+      "message": "Telegram Web öffnen"
+   },
+   "notification_button_action_tumblr": {
+      "message": "Tumblr öffnen"
+   },
+   "notification_button_action_twitch": {
+      "message": "Twitch öffnen"
+   },
+   "notification_button_action_twitter": {
+      "message": "Twitter öffnen"
+   },
+   "notification_button_action_web_de": {
+      "message": "WEB.DE öffnen"
+   },
+   "notification_button_action_wechat": {
+      "message": "WeChat Web öffnen"
+   },
+   "notification_button_action_whatsapp": {
+      "message": "WhatsApp Web öffnen"
+   },
+   "notification_button_action_yahoo_mail": {
+      "message": "Yahoo! Mail öffnen"
+   },
+   "notification_button_action_youtube": {
+      "message": "YouTube öffnen"
+   },
+   "notification_button_info": {
+      "message": "Info"
+   },
+   "notification_button_open_links": {
+      "message": "Link(s) öffnen"
+   },
+   "popup_list_clear_all_notifications": {
+      "message": "alle entfernen"
+   },
+   "popup_list_clear_notification": {
+      "message": "entfernen"
+   },
+   "popup_list_no_notifications": {
+      "message": "Deine Benachrichtigungen tauchen hier auf."
+   },
+   "popup_loading": {
+      "message": "Laden..."
+   },
+   "popup_menu_android_app": {
+      "message": "Android App herunterladen"
+   },
+   "popup_menu_android_tv_app": {
+      "message": "Android TV App herunterladen (bald verfügbar)"
+   },
+   "popup_menu_contact": {
+      "message": "Feedback (hcilab@gmail.com)"
+   },
+   "popup_menu_devices": {
+      "message": "Verbundene Geräte"
+   },
+   "popup_menu_plus_community": {
+      "message": "Google+ Community"
+   },
+   "popup_menu_sign_out": {
+      "message": "Abmelden"
+   },
+   "popup_menu_toggle_settings": {
+      "message": "Einstellungen anzeigen/verstecken"
+   },
+   "popup_menu_troubleshooting": {
+      "message": "Problembehandlung"
+   },
+   "popup_offline_warning": {
+      "message": "Du bist offline. Verbinde dich mit dem Internet, um Benachrichtigungen zu empfangen und die Einstellungen zu ändern."
+   },
+   "popup_settings_badge": {
+      "message": "Zeige die Anzahl von Benachrichtigungen auf dem Icon an"
+   },
+   "popup_settings_duration_option_0": {
+      "message": "Keine Popups anzeigen"
+   },
+   "popup_settings_duration_option_1": {
+      "message": "1 Sekunde"
+   },
+   "popup_settings_duration_option_10": {
+      "message": "10 Sekunden"
+   },
+   "popup_settings_duration_option_11": {
+      "message": "11 Sekunden"
+   },
+   "popup_settings_duration_option_12": {
+      "message": "12 Sekunden"
+   },
+   "popup_settings_duration_option_13": {
+      "message": "13 Sekunden"
+   },
+   "popup_settings_duration_option_14": {
+      "message": "14 Sekunden"
+   },
+   "popup_settings_duration_option_15": {
+      "message": "15 Sekunden"
+   },
+   "popup_settings_duration_option_16": {
+      "message": "16 Sekunden"
+   },
+   "popup_settings_duration_option_17": {
+      "message": "17 Sekunden"
+   },
+   "popup_settings_duration_option_18": {
+      "message": "18 Sekunden"
+   },
+   "popup_settings_duration_option_19": {
+      "message": "19 Sekunden"
+   },
+   "popup_settings_duration_option_2": {
+      "message": "2 Sekunden"
+   },
+   "popup_settings_duration_option_20": {
+      "message": "20 Sekunden"
+   },
+   "popup_settings_duration_option_21": {
+      "message": "21 Sekunden"
+   },
+   "popup_settings_duration_option_22": {
+      "message": "22 Sekunden"
+   },
+   "popup_settings_duration_option_23": {
+      "message": "23 Sekunden"
+   },
+   "popup_settings_duration_option_24": {
+      "message": "24 Sekunden"
+   },
+   "popup_settings_duration_option_25": {
+      "message": "25 Sekunden"
+   },
+   "popup_settings_duration_option_3": {
+      "message": "3 Sekunden"
+   },
+   "popup_settings_duration_option_4": {
+      "message": "4 Sekunden"
+   },
+   "popup_settings_duration_option_5": {
+      "message": "5 Sekunden"
+   },
+   "popup_settings_duration_option_6": {
+      "message": "6 Sekunden"
+   },
+   "popup_settings_duration_option_7": {
+      "message": "7 Sekunden"
+   },
+   "popup_settings_duration_option_8": {
+      "message": "8 Sekunden (Standard)"
+   },
+   "popup_settings_duration_option_9": {
+      "message": "9 Sekunden"
+   },
+   "popup_settings_duration_option_999": {
+      "message": "Bis manuell geschlossen"
+   },
+   "popup_settings_duration_text": {
+      "message": "Popups anzeigen für..."
+   },
+   "popup_settings_remember": {
+      "message": "Benachrichtigungen behalten wenn Chrome geschlossen wird"
+   },
+   "popup_settings_sound": {
+      "message": "Benachrichtigungston abspielen"
+   },
+   "popup_settings_speak": {
+      "message": "Sprachausgabe aktivieren"
+   },
+   "popup_settings_speak_experimental": {
+      "message": "(experimentell)"
+   },
+   "popup_sign_in_app": {
+      "message": "Android App herunterladen"
+   },
+   "popup_sign_in_button": {
+      "message": "Anmelden mit Google"
+   },
+   "popup_sign_in_contact": {
+      "message": "Kontakt (hcilab@gmail.com)"
+   },
+   "popup_sign_in_intro_1": {
+      "message": "Melde dich hier mit dem selben Google-Account wie auch in der Android App an. Wenn du noch nicht in Chrome angemeldet bist, wirst du aufgefordert das zu tun. Diese Erweiterung benützt den Account, der gerade in Chrome angemeldet ist. Wenn du mehrere Google-Accounts besitzt,"
+   },
+   "popup_sign_in_intro_2": {
+      "message": "stell sicher dass du zuerst zum gewünschten Account wechselst"
+   },
+   "popup_sign_in_troubleshooting": {
+      "message": "Problembehandlung"
+   },
+   "popup_title": {
+      "message": "Desktop Notifications für Android"
+   },
+   "server_maintenance": {
+      "message": ""
+   },
+   "setup_complete": {
+      "message": "Einrichtung abgeschlossen!"
+   },
+   "signin_again": {
+      "message": "Bitte erneut anmelden."
+   },
+   "signin_failure_message_auth": {
+      "message": "Authentifikation fehlgeschlagen."
+   },
+   "signin_failure_message_gcm": {
+      "message": "Google Cloud Messaging Registrierung ist fehlgeschlagen. Bitte versuche es später nochmal. Falls der Fehler weiterhin auftritt schreib uns bitte an hcilab@gmail.com"
+   },
+   "signin_failure_message_offline": {
+      "message": "Keine Internetverbindung."
+   },
+   "signin_failure_message_permission": {
+      "message": "Berechtigung nicht erteilt."
+   },
+   "signin_failure_message_server": {
+      "message": "Beim Verbinden mit dem Server ist ein Fehler aufgetreten. Bitte versuche es später nochmal. Falls der Fehler weiterhin auftritt schreib uns bitte an hcilab@gmail.com"
+   },
+   "signin_failure_message_unknown": {
+      "message": "Unbekannter Fehler."
+   },
+   "signin_failure_title": {
+      "message": "Anmeldung fehlgeschlagen"
+   },
+   "signin_success_message": {
+      "message": "Erfolgreich angemeldet!"
+   },
+   "survey_notification_distracting": {
+      "message": "Bitte bewerte deine Zustimmung für die folgende Aussage: Diese Benachrichtigung lenkt ab."
+   },
+   "survey_notification_important": {
+      "message": "Bitte bewerte deine Zustimmung für die folgende Aussage: Diese Benachrichtigung ist wichtig."
+   },
+   "survey_notification_useful": {
+      "message": "Bitte bewerte deine Zustimmung für die folgende Aussage: Diese Benachrichtigung ist nützlich."
+   },
+   "tts_lang": {
+      "message": "de-DE"
+   }
+}

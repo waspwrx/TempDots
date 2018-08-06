@@ -1,0 +1,11 @@
+# settings
+
+(GimpGegl-gegl-median-blur-config "2018-07-30 04:34:24"
+    (time 1532950464)
+    (neighborhood circle)
+    (radius 44)
+    (percentile 53.800000)
+    (alpha-percentile 50.000000)
+    (high-precision yes))
+
+# end of settings

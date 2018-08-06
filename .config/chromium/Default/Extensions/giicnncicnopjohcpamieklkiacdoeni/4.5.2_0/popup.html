@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title id="i18n-page-title"></title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+	<div id="main">
+
+		<!-- Warnings -->
+
+		<p class="alert alert-danger" id="server-maintenance"></p>
+		<p class="alert alert-danger" id="version">Chrome is not up to date. Please update Chrome, otherwise this extension might not work properly.</p>
+		<p class="alert alert-danger" id="browser">This extension currently only supports Chrome and Chromium. Browsers like <strong>Firefox</strong>, <strong>Opera</strong> and <strong>Vivaldi</strong> are not completely compatible yet.</p>
+
+		<!-- Sign in -->
+
+		<div id="view-sign-in">
+			<h1><span id="i18n-title-1"></span></h1>
+			<hr>
+			<p><span id="i18n-sign-in-intro-1"></span> <a href="https://support.google.com/chrome/answer/2364824" target="_blank" id="i18n-sign-in-intro-2"></a>.</p>
+			<p class="well text-center"><img src="images/sign_in_en.png" srcset="images/sign_in_en@2x.png" width="191" height="46" id="signin" alt="Sign in with Google" title="Sign in with Google" class="pointer"></p>
+			<p><a href="https://play.google.com/store/apps/details?id=org.hcilab.projects.notification" target="_blank"><span id="i18n-sign-in-app"></span></a> -
+				<a href="debug.html" target="_blank"><span id="i18n-sign-in-troubleshooting"></span></a>
+				<!--<a href="mailto:hcilab@gmail.com" target="_blank"><span id="i18n-sign-in-contact"></span></a></p>-->
+		</div>
+
+		<!-- Loading -->
+
+		<div id="view-loading">
+			<div id="loading">
+				<img src="images/spinner@2x.gif" width="48" height="48" id="i18n-loading">
+			</div>
+		</div>
+
+		<!-- Signed in -->
+
+		<div id="view-signed-in">
+
+			<!-- Header -->
+
+			<div class="dropdown">
+				<h1 class="pointer" data-toggle="dropdown" data-target="#dropdown"><span id="i18n-title-2"></span> <span class="caret"></span></h1>
+				<ul class="dropdown-menu">
+					<li><a href="#" id="devices"><span id="i18n-menu-devices"></span></a></li>
+					<li class="divider"></li>
+					<li><a href="#" id="toggle-settings"><span id="i18n-menu-toggle-settings"></span></a></li>
+					<li class="divider"></li>
+					<li><a href="https://play.google.com/store/apps/details?id=org.hcilab.projects.notification" target="_blank"><span id="i18n-menu-android-app"></span></a></li>
+					<!--<li><a href="#" style="cursor: no-drop"><span id="i18n-menu-android-tv-app"></span></a></li>-->
+					<li><a href="https://plus.google.com/communities/112382789679133427642" target="_blank"><span id="i18n-menu-plus-community"></span></a></li>
+					<li class="divider"></li>
+					<!--<li><a href="dashboard.html" target="_blank"><span id="i18n-menu-dashboard">Dashboard</span></a></li>-->
+					<li><a href="debug.html" target="_blank"><span id="i18n-menu-troubleshooting"></span></a></li>
+					<li class="divider"></li>
+					<li><a href="#" id="signout"><span id="i18n-menu-sign-out"></span></a></li>
+				</ul>
+			</div>
+
+			<!-- Settings -->
+
+			<div id="settings-block">
+				<hr>
+				<label for="duration"><span id="i18n-settings-duration-text"></span></label>
+				<select id="duration" class="form-control" style="margin-bottom: 16px">
+					<option value="0" id="i18n-settings-duration-option-0"></option>
+					<option value="1" id="i18n-settings-duration-option-1"></option>
+					<option value="2" id="i18n-settings-duration-option-2"></option>
+					<option value="3" id="i18n-settings-duration-option-3"></option>
+					<option value="4" id="i18n-settings-duration-option-4"></option>
+					<option value="5" id="i18n-settings-duration-option-5"></option>
+					<option value="6" id="i18n-settings-duration-option-6"></option>
+					<option value="7" id="i18n-settings-duration-option-7"></option>
+					<option value="8" id="i18n-settings-duration-option-8"></option>
+					<option value="9" id="i18n-settings-duration-option-9"></option>
+					<option value="10" id="i18n-settings-duration-option-10"></option>
+					<option value="11" id="i18n-settings-duration-option-11"></option>
+					<option value="12" id="i18n-settings-duration-option-12"></option>
+					<option value="13" id="i18n-settings-duration-option-13"></option>
+					<option value="14" id="i18n-settings-duration-option-14"></option>
+					<option value="15" id="i18n-settings-duration-option-15"></option>
+					<option value="16" id="i18n-settings-duration-option-16"></option>
+					<option value="17" id="i18n-settings-duration-option-17"></option>
+					<option value="18" id="i18n-settings-duration-option-18"></option>
+					<option value="19" id="i18n-settings-duration-option-19"></option>
+					<option value="20" id="i18n-settings-duration-option-20"></option>
+					<option value="21" id="i18n-settings-duration-option-21"></option>
+					<option value="22" id="i18n-settings-duration-option-22"></option>
+					<option value="23" id="i18n-settings-duration-option-23"></option>
+					<option value="24" id="i18n-settings-duration-option-24"></option>
+					<option value="25" id="i18n-settings-duration-option-25"></option>
+					<option value="999" id="i18n-settings-duration-option-999"></option>
+				</select>
+
+				<div class="checkbox">
+					<label><input type="checkbox" id="sound"> <span id="i18n-settings-sound"></span></label>
+				</div>
+				<div class="checkbox" id="speak-block">
+					<label><input type="checkbox" id="speak"> <span id="i18n-settings-speak"></span></label> <span id="i18n-settings-speak-experimental" class="text-muted"></span>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" id="badge"> <span id="i18n-settings-badge"></span></label>
+				</div>
+				<!--<div class="checkbox">
+					<label><input type="checkbox" id="remember"> <span id="i18n-settings-remember"></span></label>
+				</div>-->
+
+				<!--<div><span class="btn btn-link">Show advanced settings</span></div>-->
+			</div>
+
+			<!-- Notification List -->
+
+			<div id="notification-block">
+				<div id="no-notifications" class="text-muted text-center"><span id="i18n-list-no-notifications"></span></div>
+				<div id="notification-list"></div>
+				<div id="notification-options" class="text-right">
+					<svg id="clear-all-notifications" fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zM7 7v2h14V7H7z" />
+						<path d="M0 0h24v24H0z" fill="none" />
+					</svg>
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Offline Warning -->
+
+	<div id="offline-warning">
+		<span class="glyphicon glyphicon-globe"></span><br><br>
+		<span id="i18n-offline-warning"></span>
+	</div>
+
+	<!-- Notification Template -->
+
+	<template id="notification-template">
+
+		<div class="card">
+			<div class="icon"><img src="images/icon_default_160.png" width="80" height="80" class="appicon"></div>
+			<div class="text">
+				<h2 class="title"></h2>
+				<p class="content"></p>
+				<p class="info"><span class="appname"></span> &middot; <span class="device"></span> <span class="time-container">&middot; <span class="time"></span></span></p>
+				<span class="close-button">&times;</span>
+			</div>
+			<div class="button-container">
+				<div class="separator"></div>
+				<a href="#" class="button-text" target="_blank"></a>
+			</div>
+			<!--<div class="feedback-container">
+				<div class="separator"></div>
+				<table>
+					<tr class="row-statement">
+						<td colspan="7"><span class="i18n-survey-statement"></span></td>
+					</tr>
+					<tr class="row-input">
+						<td><input type="radio" name="i" value="1" title="1"></td>
+						<td><input type="radio" name="i" value="2" title="2"></td>
+						<td><input type="radio" name="i" value="3" title="3"></td>
+						<td><input type="radio" name="i" value="4" title="4"></td>
+						<td><input type="radio" name="i" value="5" title="5"></td>
+						<td><input type="radio" name="i" value="6" title="6"></td>
+						<td><input type="radio" name="i" value="7" title="7"></td>
+					</tr>
+					<tr class="row-label">
+						<td colspan="3" class="text-left text-muted"><small><span class="i18n-likert-strongly-disagree"></span></small></td>
+						<td colspan="1" class="text-center">&nbsp;</td>
+						<td colspan="3" class="text-right text-muted"><small><span class="i18n-likert-strongly-agree"></span></small></td>
+					</tr>
+				</table>
+			</div>-->
+		</div>
+
+	</template>
+
+	<template id="notification-template-2">
+
+		<div class="card-2">
+			<div class="text">
+				<p class="info"><img src="images/icon_default_160.png" width="16" height="16" class="appicon"> <span class="appname"></span> &middot; <span class="device"></span> <span class="time-container">&middot; <span class="time"></span></span></p>
+				<h2 class="title"></h2>
+				<p class="content"></p>
+				<span class="close-button">&times;</span>
+			</div>
+			<div class="button-container">
+				<a href="#" class="button-text" target="_blank"></a>
+			</div>
+		</div>
+
+	</template>
+
+	<script src="jquery-3.1.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="Autolinker.js"></script>
+	<script src="const.min.js"></script>
+	<script src="util.min.js"></script>
+	<script src="popup.min.js"></script>
+</body>
+</html>

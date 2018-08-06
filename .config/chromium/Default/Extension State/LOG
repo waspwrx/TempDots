@@ -1,0 +1,15 @@
+2018/08/05-20:26:00.401 5815 Reusing MANIFEST /home/stosh/.config/chromium/Default/Extension State/MANIFEST-000001
+2018/08/05-20:26:00.401 5815 Recovering log #55
+2018/08/05-20:26:00.407 5815 Reusing old log /home/stosh/.config/chromium/Default/Extension State/000055.log 
+2018/08/05-21:42:56.952 10347 Level-0 table #59: started
+2018/08/05-21:42:56.979 10347 Level-0 table #59: 1569303 bytes OK
+2018/08/05-21:42:56.984 10347 Delete type=0 #55
+2018/08/05-21:42:56.985 10347 Compacting 4@0 + 1@1 files
+2018/08/05-21:42:57.023 10347 Generated table #60@0: 4 keys, 3491 bytes
+2018/08/05-21:42:57.023 10347 Compacted 4@0 + 1@1 files => 3491 bytes
+2018/08/05-21:42:57.027 10347 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/08/05-21:42:57.027 10347 Delete type=2 #53
+2018/08/05-21:42:57.028 10347 Delete type=2 #47
+2018/08/05-21:42:57.028 10347 Delete type=2 #50
+2018/08/05-21:42:57.028 10347 Delete type=2 #59
+2018/08/05-21:42:57.028 10347 Delete type=2 #56

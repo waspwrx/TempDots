@@ -1,0 +1,64 @@
+[settings]
+columns = ~#track,artist,album,title,~#length
+	
+default_rating = 0.5
+scan = /mnt/c/Users/stosh/Music
+
+[memory]
+browser = FileSystem
+browser_filesystem_maximized = 0
+browser_filesystem_position = 2885 1122
+browser_filesystem_size_ = 940 1143
+chooser_dir = /mnt/c/Users/stosh
+column_expands = artist,0,album,0,title,1
+	
+column_widths = artist,208,album,299,title,-1
+	
+open_browsers = 
+plugin_prefs_maximized = 0
+plugin_prefs_position = 610 336
+plugin_prefs_size_ = 700 636
+plugin_selection = queue
+prefs_page = songlist
+queue = False
+queue_expanded = True
+queue_position = 0.5561797752808989
+quodlibet_information_maximized = 0
+quodlibet_information_position = 729 386
+quodlibet_information_size_ = 461 400
+quodlibet_last_active_version = 4.1.0
+quodlibet_maximized = 0
+quodlibet_position = 1920 1107
+quodlibet_size_ = 1920 1173
+seek = 0
+sidebar_pos = 0.25
+song = /mnt/c/Users/stosh/Music/Hotline Miami 2 OST (flac)/Soundtrack/46 Abyss.flac
+sortby = 0~#track
+	
+volume = 1.0
+
+[player]
+gst_buffer = 3.0
+replaygain = true
+replaygain_mode = auto
+
+[browsers]
+albumlist_pos = 0.4
+cover_size = -1
+filesystem = /mnt/c/Users/stosh/Music/Hotline Miami 2 OST (flac)/Soundtrack
+filesystem_pos = 0.20260416666666667
+panedbrowser_pane_widths = 0.49895833333333334
+panedbrowser_pos = 0.4049079754601227
+query_text = 
+
+[__config__]
+version = 0
+
+[plugins]
+active_plugins = 
+icon_tooltip = <album|<album~discnumber~part~tracknumber~title~version>|<artist~title~version>>
+quodlibet.fake.plugins.visualisations_executable = projectM-pulseaudio
+randomalbum_use_weights = 0
+scrobbler_service = Last.fm
+squeezebox_debug = False
+

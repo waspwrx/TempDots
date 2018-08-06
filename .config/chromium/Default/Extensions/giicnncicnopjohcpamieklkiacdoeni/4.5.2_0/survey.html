@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Desktop Notifications for Android</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container"><!--
+	<h2>Desktop Notifications for Android</h2>
+	<p>Hi and thank you for taking the time to read this! We created this survey to learn more about how you use Desktop Notifications and how we can improve the app.</p>
+
+	<br>
+
+	<form action="/" method="post">
+
+		<div class="form-group well">
+			<label>1. Why do you use Desktop Notifications?</label>
+			<span class="text-muted">(select all that apply)</span>
+
+			<div class="randomize">
+				<div class="checkbox"><label><input id="dn-why-1" type="checkbox" name="dn-why" value="1"> My phone/tablet is not always nearby</label></div>
+				<div class="checkbox"><label><input id="dn-why-2" type="checkbox" name="dn-why" value="2"> So I don't have to check my phone/tablet all the time</label></div>
+				<div class="checkbox"><label><input id="dn-why-3" type="checkbox" name="dn-why" value="3"> I would miss important notifications otherwise <span class="text-muted">(for example because phone/tablet is muted or wearing headphones)</span></label></div>
+				<div class="checkbox"><label><input id="dn-why-4" type="checkbox" name="dn-why" value="4"> To receive all notifications on the device I'm currently using</label></div>
+			</div>
+		</div>
+
+		<div class="form-group well">
+			<label>2. Where do you use Desktop Notifications?</label>
+			<span class="text-muted">(select all that apply)</span>
+
+			<div class="randomize">
+				<div class="checkbox"><label><input id="dn-where-1" type="checkbox" name="dn-where" value="1"> Home</label></div>
+				<div class="checkbox"><label><input id="dn-where-2" type="checkbox" name="dn-where" value="2"> Work</label></div>
+				<div class="checkbox"><label><input id="dn-where-3" type="checkbox" name="dn-where" value="3"> School / university</label></div>
+				<div class="checkbox"><label><input id="dn-where-4" type="checkbox" name="dn-where" value="4"> Other peoples' homes</label></div>
+				<div class="checkbox"><label><input id="dn-where-5" type="checkbox" name="dn-where" value="5"> Public places <span class="text-muted">(for example coffee shop)</span></label></div>
+				<div class="checkbox"><label><input id="dn-where-6" type="checkbox" name="dn-where" value="6"> Public transport / when traveling</label></div>
+			</div>
+		</div>
+
+		<div class="form-group well">
+			<label for="dn-feature">3. What is the number one feature you would you like to see added to Desktop Notifications?</label>
+			<span class="text-muted">(optional)</span>
+
+			<br>
+			<br>
+			<input type="text" id="dn-feature" name="dn-feature" class="form-control" maxlength="140">
+		</div>
+
+		<div class="row">
+			<div class="col-xs-8">
+
+				<div class="form-group well">
+					<label>4. Desktop Notifications allows you to disable sending notifications from certain apps. What are reasons for disabling sending notifications from certain apps?</label>
+					<span class="text-muted">(select all that apply)</span>
+
+					<div class="randomize">
+						<div class="checkbox"><label><input id="disable-app-1" name="disable-app" type="checkbox" value="1"> Privacy reasons</label></div>
+						<div class="checkbox"><label><input id="disable-app-2" name="disable-app" type="checkbox" value="2"> Security reasons</label></div>
+						<div class="checkbox"><label><input id="disable-app-3" name="disable-app" type="checkbox" value="3"> Avoid duplicate notifications</label></div>
+						<div class="checkbox"><label><input id="disable-app-4" name="disable-app" type="checkbox" value="4"> Notifications of the app are not important</label></div>
+						<div class="checkbox"><label><input id="disable-app-5" name="disable-app" type="checkbox" value="5"> Notifications of the app are only relevant on the device they originated on</label></div>
+						<div class="checkbox"><label><input id="disable-app-6" name="disable-app" type="checkbox" value="6"> App creates too many notifications</label></div>
+						<div class="checkbox"><label><input id="disable-app-7" name="disable-app" type="checkbox" value="7"> App continuously creates notifications for a single activity <span class="text-muted">(for example downloads)</span></label></div>
+						<div class="checkbox"><label><input id="disable-app-8" name="disable-app" type="checkbox" value="8"> Notifications of the app contain advertisements</label></div>
+						<div class="checkbox"><label><input id="disable-app-9" name="disable-app" type="checkbox" value="9"> Notifications of the app are of a lower priority, it's okay to see them at a later point of time</label></div>
+					</div>
+				</div>
+
+				<div class="form-group well">
+					<label>5. Desktop Notifications allows you to send notifications to other devices but exclude the actual content (text). What are reasons for disabling the content (text) from certain apps while still being notified?</label>
+					<span class="text-muted">(select all that apply)</span>
+
+					<div class="randomize">
+						<div class="checkbox"><label><input id="disable-text-1" name="disable-text" type="checkbox" value="1"> Privacy reasons</label></div>
+						<div class="checkbox"><label><input id="disable-text-2" name="disable-text" type="checkbox" value="2"> Security reasons</label></div>
+						<div class="checkbox"><label><input id="disable-text-3" name="disable-text" type="checkbox" value="3"> Notifications by the app are not important for me</label></div>
+						<div class="checkbox"><label><input id="disable-text-4" name="disable-text" type="checkbox" value="4"> The text is not necessary for notifications from the app</label></div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-xs-4">
+				<img src="images/phone1.png" class="img-responsive">
+			</div>
+
+		</div>
+
+		<div class="form-group well">
+			<label>6. Gender</label>
+			<span class="text-muted">(select one)</span>
+
+			<div class="radio"><label><input name="demo-gender" type="radio" value="none" checked> I don't want to say</label></div>
+			<div class="radio"><label><input name="demo-gender" type="radio" value="female"> Female</label></div>
+			<div class="radio"><label><input name="demo-gender" type="radio" value="male"> Male</label></div>
+			<div class="radio"><label><input name="demo-gender" type="radio" value="other"> Other</label></div>
+		</div>
+
+		<div class="form-group well">
+			<label>7. Age</label>
+			<span class="text-muted">(select one)</span>
+
+			<div class="radio"><label><input name="demo-age" type="radio" value="none" checked> I don't want to say</label></div>
+			<div class="radio"><label><input name="demo-age" type="radio" value="00-11"> Under 12 years old</label></div>
+			<div class="radio"><label><input name="demo-age" type="radio" value="12-17"> 12-17 years old</label></div>
+			<div class="radio"><label><input name="demo-age" type="radio" value="18-24"> 18-24 years old</label></div>
+			<div class="radio"><label><input name="demo-age" type="radio" value="25-34"> 25-34 years old</label></div>
+			<div class="radio"><label><input name="demo-age" type="radio" value="35-44"> 35-44 years old</label></div>
+			<div class="radio"><label><input name="demo-age" type="radio" value="45-54"> 45-54 years old</label></div>
+			<div class="radio"><label><input name="demo-age" type="radio" value="55-64"> 55-64 years old</label></div>
+			<div class="radio"><label><input name="demo-age" type="radio" value="65-74"> 65-74 years old</label></div>
+			<div class="radio"><label><input name="demo-age" type="radio" value="75-99"> 75 years or older</label></div>
+		</div>
+
+		<div class="form-group">
+			<button type="submit" id="submit" name="submit" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-lock"></span> Submit</button>
+		</div>
+		<p class="text-muted">Your answers are stored securely and anonymously. Questions or comments? Email us: <a href="mailto:hcilab@gmail.com?subject=Survey-2016-01" target="_blank">hcilab@gmail.com</a></p>
+	</form>
+
+--></div>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="const.min.js"></script>
+<script src="util.min.js"></script>
+<script src="survey.min.js"></script>
+</body>
+</html>

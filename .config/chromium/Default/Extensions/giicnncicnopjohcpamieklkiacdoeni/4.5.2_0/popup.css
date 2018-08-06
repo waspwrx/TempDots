@@ -1,0 +1,361 @@
+body {
+	width: 500px;
+	background-color: #fff;
+
+	font-size: 14px;
+}
+
+a, a:link, a:hover, a:active, a:visited {
+	color: #4285F4;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#main {
+	padding: 16px;
+}
+
+#offline-warning, #view-sign-in, #view-loading, #view-signed-in, footer {
+	display: none;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+label {
+	font-weight: normal;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	font-weight: bold;
+	cursor: default;
+}
+
+h1.pointer:hover {
+	text-decoration: underline;
+}
+
+hr {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+#version, #browser, #server-maintenance {
+	display: none;
+}
+
+/* Sign in */
+
+#signin:hover {
+	animation-name: wiggle;
+	animation-duration: .4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+@keyframes wiggle {
+	from { transform: rotateZ(2deg);  }
+	50%  { transform: rotateZ(-2deg); }
+	to   { transform: rotateZ(2deg);  }
+}
+
+/* Loading */
+
+#loading {
+	padding: 128px 0;
+	text-align: center;
+}
+
+/* Notification list */
+
+#notification-block {
+	min-height: 256px;
+	padding: 16px;
+	margin: 16px -16px -16px -16px;
+	background-color: #f5f5f5;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+
+	/*background-image: url(images/mrdroid_50@2x.png);
+	background-size: 162px 91px;
+	background-repeat: no-repeat;
+	background-position: 95% bottom;*/
+}
+
+#no-notifications {
+	padding: 128px 0;
+	cursor: default;
+}
+
+#notification-options {
+	margin-top: 16px;
+	margin-right: 4px;
+}
+
+#notification-options svg {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	cursor: pointer;
+	opacity: 0.2;
+	transition: opacity 0.2s;
+}
+
+#notification-options svg:hover {
+	opacity: 0.5;
+}
+
+/* Notification */
+
+.card {
+	margin-bottom: 16px;
+	background-color: #fff;
+	box-shadow: 0 0 3px #bbb;
+	position: relative;
+}
+
+.card.feedback {
+	outline: 2px solid #4285F4;
+}
+
+.card:last-child {
+	margin-bottom: 0;
+}
+
+.card .icon {
+	width: 80px;
+	height: 80px;
+	/*background-color: #f0f0f0;*/
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card .icon.full {
+	background-color: #4E7FEF;
+}
+
+.card .icon img {
+	width: 80px;
+	height: 80px;
+	display: block;
+}
+
+.card .text {
+	min-height: 80px;
+	padding: 12px 12px 10px 12px;
+	margin-left: 80px;
+	overflow: hidden;
+	position: relative;
+}
+
+.card .text h2 {
+	padding: 0;
+	margin: 0 0 4px 0;
+	font-size: 1em;
+}
+
+.card .text p {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.2;
+
+	white-space: pre-wrap;
+}
+
+.card .text .info {
+	padding: 0;
+	margin: 8px 0 0 0;
+	color: #999;
+	font-size: 0.9em;
+	cursor: default;
+}
+
+.card .text .time-container {
+	opacity: 0;
+	transition: opacity 0.2s;
+	cursor: default;
+}
+
+.card:hover .text .time-container {
+	opacity: 1;
+}
+
+.card .text .close-button {
+	padding: 1px 6px;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+
+	color: #000;
+	font-weight: 700;
+	opacity: 0;
+	font-size: 1.8em;
+	line-height: 1;
+	cursor: pointer;
+	transition: opacity 0.2s;
+}
+
+.card .text .close-button:hover {
+	opacity: 0.5;
+}
+
+.card:hover .close-button {
+	opacity: 0.2;
+}
+
+.card a.button-text {
+	padding: 8px;
+	margin: 0;
+	display: block;
+
+	font-size: 1em;
+	text-decoration: none;
+	color: #333;
+}
+
+.card a.button-text:hover {
+	background-color: #f3f3f3;
+}
+
+.card .separator {
+	border-top: 1px solid #eaeaea;
+}
+
+.card .feedback-container {
+	cursor: default;
+	display: none;
+}
+
+.card .feedback-container table {
+	width: 100%;
+}
+
+.card .feedback-container table .row-statement td {
+	padding: 8px;
+}
+
+.card .feedback-container table .row-input td {
+	width: 14.29%;
+	text-align: center;
+}
+
+.card .feedback-container table .row-input td input {
+	cursor: pointer;
+}
+
+.card .feedback-container table .row-label td {
+	padding: 0 8px 8px 8px;
+}
+
+.card-2 {
+	margin-bottom: 16px;
+	background-color: #fff;
+	box-shadow: 0 0 3px #bbb;
+	position: relative;
+}
+
+.card-2 .text {
+	padding: 15px;
+	overflow: hidden;
+	position: relative;
+}
+
+.card-2 .text .info {
+	padding: 0;
+	margin: 0 0 15px 0;
+	color: #999;
+	font-size: 1em;
+	cursor: default;
+}
+
+.card-2 .text .appname {
+	color: #4285F4;
+}
+
+.card-2 .text .time-container {
+	opacity: 0;
+	transition: opacity 0.2s;
+	cursor: default;
+}
+
+.card-2:hover .text .time-container {
+	opacity: 1;
+}
+
+.card-2 .text h2 {
+	padding: 0;
+	margin: 0 0 4px 0;
+	font-size: 1.2em;
+}
+
+.card-2 .text p {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.2;
+
+	white-space: pre-wrap;
+}
+
+.card-2 .text .close-button {
+	padding: 1px 6px;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+
+	color: #000;
+	font-weight: 700;
+	opacity: 0;
+	font-size: 1.8em;
+	line-height: 1;
+	cursor: pointer;
+	transition: opacity 0.2s;
+}
+
+.card-2 .text .close-button:hover {
+	opacity: 0.5;
+}
+
+.card-2:hover .close-button {
+	opacity: 0.2;
+}
+
+.card-2 a.button-text {
+	padding: 15px;
+	margin: 0;
+	display: block;
+
+	font-size: 1em;
+	text-decoration: none;
+	color: #333;
+	background-color: #eee;
+}
+
+.card-2 a.button-text:hover {
+	background-color: #f3f3f3;
+}
+
+/* Offline Warning */
+
+#offline-warning {
+	padding: 50px 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	cursor: default;
+}

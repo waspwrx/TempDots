@@ -1,0 +1,112 @@
+{
+   "author": "Steam Database",
+   "content_scripts": [ {
+      "exclude_matches": [ "https://steamdb.info/api/*", "https://steamdb.info/static/*", "https://steamdb.info/embed/*" ],
+      "js": [ "scripts/common.js", "scripts/steamdb/global.js" ],
+      "matches": [ "https://steamdb.info/*" ]
+   }, {
+      "css": [ "styles/global.css", "styles/store.css" ],
+      "exclude_matches": [ "*://store.steampowered.com/login/*", "*://store.steampowered.com/join/*", "*://store.steampowered.com/api/*", "*://store.steampowered.com/dynamicstore/*", "*://store.steampowered.com/checkout*", "*://store.steampowered.com/widget/*" ],
+      "js": [ "scripts/common.js", "scripts/global.js" ],
+      "matches": [ "*://store.steampowered.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "styles/store.css" ],
+      "js": [ "scripts/common.js", "scripts/store/app.js" ],
+      "matches": [ "*://store.steampowered.com/app/*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/store/account.js" ],
+      "matches": [ "https://store.steampowered.com/account/licenses*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/store/registerkey.js" ],
+      "matches": [ "https://store.steampowered.com/account/registerkey*" ]
+   }, {
+      "css": [ "styles/store.css" ],
+      "js": [ "scripts/common.js", "scripts/store/sub.js" ],
+      "matches": [ "*://store.steampowered.com/sub/*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/store/bundle.js" ],
+      "matches": [ "*://store.steampowered.com/bundle/*" ]
+   }, {
+      "all_frames": true,
+      "css": [ "styles/store.css" ],
+      "js": [ "scripts/common.js", "scripts/store/widget.js" ],
+      "matches": [ "*://store.steampowered.com/widget/*" ]
+   }, {
+      "css": [ "styles/store.css" ],
+      "js": [ "scripts/common.js", "scripts/store/video.js" ],
+      "matches": [ "*://store.steampowered.com/video/*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/store/agecheck.js" ],
+      "matches": [ "*://store.steampowered.com/app/*/agecheck", "*://store.steampowered.com/agecheck/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "styles/global.css" ],
+      "exclude_matches": [ "*://steamcommunity.com/login/*", "*://steamcommunity.com/miniprofile/*" ],
+      "js": [ "scripts/common.js", "scripts/global.js" ],
+      "matches": [ "*://steamcommunity.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/profile.js" ],
+      "matches": [ "*://steamcommunity.com/id/*", "*://steamcommunity.com/profiles/*" ]
+   }, {
+      "css": [ "styles/inventory.css" ],
+      "js": [ "scripts/common.js", "scripts/community/profile_inventory.js" ],
+      "matches": [ "*://steamcommunity.com/id/*/inventory*", "*://steamcommunity.com/profiles/*/inventory*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/community/profile_achievements.js" ],
+      "matches": [ "*://steamcommunity.com/id/*/stats*", "*://steamcommunity.com/profiles/*/stats*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/community/tradeoffer_new.js" ],
+      "matches": [ "*://steamcommunity.com/tradeoffer/new*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/community/tradeoffer.js" ],
+      "matches": [ "*://steamcommunity.com/tradeoffer/*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/community/profile_games.js" ],
+      "matches": [ "*://steamcommunity.com/id/*/games*", "*://steamcommunity.com/profiles/*/games*" ]
+   }, {
+      "js": [ "scripts/common.js", "scripts/community/profile_games.js", "scripts/community/profile_wishlist.js" ],
+      "matches": [ "*://steamcommunity.com/id/*/wishlist*", "*://steamcommunity.com/profiles/*/wishlist*" ]
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/profile_recommended.js" ],
+      "matches": [ "*://steamcommunity.com/id/*/recommended/*", "*://steamcommunity.com/profiles/*/recommended/*" ]
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/profile_badges.js" ],
+      "matches": [ "*://steamcommunity.com/id/*/badges*", "*://steamcommunity.com/profiles/*/badges*" ]
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/profile_gamecards.js" ],
+      "matches": [ "*://steamcommunity.com/id/*/gamecards/*", "*://steamcommunity.com/profiles/*/gamecards/*" ]
+   }, {
+      "css": [ "styles/community.css" ],
+      "js": [ "scripts/common.js", "scripts/community/gamehub.js" ],
+      "matches": [ "*://steamcommunity.com/app/*", "*://steamcommunity.com/games/*", "*://steamcommunity.com/sharedfiles/filedetails*", "*://steamcommunity.com/workshop/browse*", "*://steamcommunity.com/workshop/discussions*" ]
+   }, {
+      "all_frames": true,
+      "js": [ "scripts/common.js", "scripts/community/market_ssa.js" ],
+      "matches": [ "*://steamcommunity.com/market/*", "*://steamcommunity.com/id/*/inventory*", "*://steamcommunity.com/profiles/*/inventory*" ]
+   } ],
+   "description": "Adds Steam Database links and new features across Steam Community and Store.",
+   "homepage_url": "https://steamdb.info/",
+   "icons": {
+      "128": "icons/128.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvaD4yBXCoxl7bgn2OV/y2dnd/md9Lh8xYXSI9xAd9YDS+NRMd2t03MU6fHRgXRm4p944bm/PL6HevxnkQTL+RVbiqknuB+TG21um/F0Ow6eEDBfHIYKBWU78nNRMbwAfCwBRo/ZGCHENMFDgpE7rPWLlW46vTE/h87k/Zfdg3jxTL2R4uOGNVvkUxEdCyCYWXpCfQdAXJpk9Zx6/OvsicieH3p8qZeVuwMs1PVJTERXfazVxbr9XGIvjm5H1uz7b+3md8SEO33mkjMmmOwr24XlitJOWVMnX/ArJnXxiE59MUwCWMbU8g1aXyaweKjuBc5iH2Megmh1ZdqkN6PLpTwIDAQAB",
+   "manifest_version": 2,
+   "name": "Steam Database",
+   "options_page": "options/options.html",
+   "options_ui": {
+      "chrome_style": false,
+      "page": "options/options.html"
+   },
+   "permissions": [ "storage", "https://steamdb.info/", "http://store.steampowered.com/", "https://store.steampowered.com/", "http://steamcommunity.com/", "https://steamcommunity.com/" ],
+   "short_name": "SteamDB",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8.3",
+   "web_accessible_resources": [ "icons/white.svg", "icons/pcgamingwiki.svg", "styles/store-center.css", "styles/inventory-sidebar.css", "scripts/steamdb/loader.js", "scripts/community/inventory.js", "scripts/store/subscriptions.js" ]
+}

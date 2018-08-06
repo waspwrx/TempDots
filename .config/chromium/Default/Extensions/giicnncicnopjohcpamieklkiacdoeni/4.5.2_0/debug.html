@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Troubleshooting - Desktop Notifications</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<style>
+
+		body {
+			background: #eee;
+		}
+
+		h2 {
+			margin: 0 0 20px 0;
+		}
+
+		.card {
+			padding: 20px;
+			margin-bottom: 30px;
+			background: #fff;
+			box-shadow: 0 0 3px #bbb;
+		}
+
+	</style>
+</head>
+<body>
+<div class="container">
+	<h1>Desktop Notifications <small>Troubleshooting</small></h1>
+	<br>
+
+	<p class="lead">If you have trouble signing in or notifications from your Android device(s) do not appear,
+		please check the following troubleshooting information:</p>
+
+	<!-- General -->
+
+	<div class="card">
+		<h2>General</h2>
+
+		<table class="table table-bordered">
+			<thead>
+			<tr>
+				<th>Description</th>
+				<th>Value</th>
+				<th>Status</th>
+			</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Connectivity</td>
+					<td><span id="general-connectivity-value">waiting...</span></td>
+					<td><strong id="general-connectivity-status">?</strong></td>
+				</tr>
+				<tr>
+					<td>Browser Name</td>
+					<td><span id="general-browser-name-value">waiting...</span></td>
+					<td><strong id="general-browser-name-status">?</strong></td>
+				</tr>
+				<tr>
+					<td>Browser Version</td>
+					<td><span id="general-browser-version-value">waiting...</span></td>
+					<td><strong id="general-browser-version-status">?</strong></td>
+				</tr>
+				<tr>
+					<td>Server Ping</td>
+					<td><span id="general-server-value">waiting...</span></td>
+					<td><strong id="general-server-status">?</strong></td>
+				</tr>
+				<tr>
+					<td>Google Account Authentication</td>
+					<td><span id="general-identity-value">waiting...</span></td>
+					<td><strong id="general-identity-status">?</strong></td>
+				</tr>
+				<tr>
+					<td>Instance ID</td>
+					<td><span id="general-instance-id-value">waiting...</span></td>
+					<td><strong id="general-instance-id-status">?</strong></td>
+				</tr>
+				<tr>
+					<td>GCM Availability</td>
+					<td><span id="general-gcm-availability-value">waiting...</span></td>
+					<td><strong id="general-gcm-availability-status">?</strong></td>
+				</tr>
+			</tbody>
+		</table>
+		<!--<p>Quick links:</p>
+		<ul>
+			<li><a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Download Google Chrome</a></li>
+		</ul>-->
+	</div>
+
+	<!-- Connected Devices -->
+
+	<div class="card" id="card-devices">
+		<h2>Connected Devices</h2>
+
+		<iframe src="devices.html#iframe" width="350" height="250" frameborder="0"></iframe>
+		<br>
+		<p>Make sure <strong>all</strong> your devices appear in the list above. If not all devices are listed, please make sure that you use <strong><a href="https://support.google.com/chrome/answer/2364824" target="_blank">the same Google account on all devices</a></strong>.</p>
+		<p>Some devices might appear multiple times in the list. This happens if you uninstall the Android app or Chrome extension before signing out. This does not affect the app in any way. In the future we will add options to remove old entries to clean up the list.</p>
+	</div>
+
+	<!-- Google Cloud Messaging -->
+
+	<div class="card" id="card-gcm">
+		<h2>Google Cloud Messaging (GCM)</h2>
+
+		<p>Desktop Notifications uses Google Cloud Messaging (GCM) to push notifications from your Android device(s) to Chrome.
+			GCM is part of Chrome and in some cases does not work correctly.
+			To find out if GCM is working as intented, open <code>chrome://gcm-internals/</code> in Chrome and compare the table with the following image:</p>
+		<br>
+		<p><img src="images/gcm-internals.png" width="331" height="156" class="img-thumbnail"></p>
+		<br>
+		<p>If <strong>any</strong> of these values are different, there is a problem with GCM in your Chrome installation.
+			In that case, first try restarting Chrome and verify whether that fixed the problem.
+			If that does not work, try disconnecting and reconnecting your Internet connection.
+			If none of the steps above work, you have to remove and re-add your Google account from Chrome or re-install Chrome.
+			Sadly we are not aware of another way to resolve this issue.</p>
+	</div>
+
+	<!-- Other -->
+
+	<!--<div class="card">
+		<h2>Other</h2>
+
+		<p><button type="button" class="btn btn-primary" id="test">Test Notification</button></p>
+		<p>Clicking this button will create a <strong>local</strong> test notification. This notification <strong>will not</strong> appear on other devices.</p>
+	</div>-->
+
+	<p class="text-center">Still not working? Contact us:
+		<a href="mailto:hcilab@gmail.com?subject=Desktop%20Notifications%20Troubleshooting" id="mail">hcilab@gmail.com</a>
+		/ <a href="https://plus.google.com/communities/112382789679133427642" target="_blank">Google+</a></p>
+
+</div>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="const.min.js"></script>
+<script src="util.min.js"></script>
+<script src="debug.min.js"></script>
+</body>
+</html>
